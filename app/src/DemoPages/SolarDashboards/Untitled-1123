@@ -1,0 +1,79 @@
+ <Row>
+                            <Col md="6" lg="3" xl="6">
+                                <div className="card mb-3 widget-chart widget-chart2 text-left card-btm-border card-shadow-success border-success">
+                                    <div className="widget-chat-wrapper-outer">
+                                        <div className="widget-chart-content pt-3 pl-3 pb-1">
+                                            <div className="widget-chart-flex">
+                                                <div className="widget-numbers">
+                                                    <div className="widget-chart-flex">
+                                                        <div className="fsize-4">
+                                                            <p>Box-1</p>
+                                                           
+                                                            <CountUp start={0}
+                                                                     end={19900}
+                                                                     separator=""
+                                                                     decimals={0}
+                                                                     decimal=""
+                                                                     prefix=""
+                                                                     duration="0"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h6 className="widget-subheading mb-0 opacity-5">
+                                               To be supplied
+                                            </h6>
+                                        </div>
+                                        <Row className="no-gutters widget-chart-wrapper mt-3 mb-3 pl-2 he-auto">
+                                            <Col md="9">
+                                                <Sparklines data={sampleData}>
+                                                    <SparklinesCurve
+                                                        style={{
+                                                            strokeWidth: 3, stroke:
+                                                                "var(--success)", fill: "none"
+                                                        }}/>
+                                                </Sparklines>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col md="6" lg="3" xl="6">
+                                <div className="card mb-3 widget-chart widget-chart2 text-left card-btm-border card-shadow-primary border-primary">
+                                    <div className="widget-chat-wrapper-outer">
+                                        <div className="widget-chart-content pt-3 pl-3 pb-1">
+                                            <div className="widget-chart-flex">
+                                                <div className="widget-numbers">
+                                                    <div className="widget-chart-flex">
+                                                        <div className="fsize-4">
+                                                        <p>Box-2</p>
+                                                            <CountUp start={0}
+                                                                     end={29500}
+                                                                     separator=""
+                                                                     decimals={0}
+                                                                     decimal=""
+                                                                     prefix=""
+                                                                     duration="0"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h6 className="widget-subheading mb-0 opacity-5">
+                                            To be supplied
+                                            </h6>
+                                        </div>
+                                        <Row className="no-gutters widget-chart-wrapper mt-3 mb-3 pl-2 he-auto">
+                                            <Col md="9">
+                                                <Sparklines data={sampleData2}>
+                                                    <SparklinesCurve
+                                                        style={{
+                                                            strokeWidth: 3, stroke:
+                                                                "var(--primary)", fill: "none"
+                                                        }}/>
+                                                </Sparklines>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
