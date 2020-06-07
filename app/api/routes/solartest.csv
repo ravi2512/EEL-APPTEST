@@ -1,0 +1,11 @@
+Date,Po,Part_No,Part_Description,UOM,Max_Stock,Min_Stock,Opening_Stock,Consumption_Per_Day,Consumption_Three_Day,To_Supply,Criticality,Remark,Color_Code,Coverage,Un_accounted,Type,Vendor,Aknowledge
+24/Dec/00,5366,500020,Box-1,Ea,20000,10000,100,  50.00 ,40,19900,Critical,No,Red,  2.00 ,0, Domestic ,ABC,No
+24/Dec/00,5366,500015,Box-2,Ea,30000,20000,500,  70.00 ,60,29500,,No,Yellow,  7.14 ,0, Domestic ,XYZ,No
+24/Dec/00,5365,500017,Box-3,Ea,30000,20000,500,  70.00 ,60,29500,,No,Yellow,  7.14 ,0, Domestic ,ABC,No
+24/Dec/00,5367,500051,Box-3,Ea,10000,4000,300,  80.00 ,70,9700,Critical,No,Red,  3.75 ,0, Domestic ,MCP,No
+24/Dec/00,5368,55000,Box-4,Ea,10000,4000,200,  90.00 ,80,9800,Critical,No,Red,  2.22 ,0, Domestic ,MCP,Yes
+23/Dec/00,5366,500020,Box-1,Ea,20000,10000,100,  50.00 ,40,19900,Critical,No,Red,  2.00 ,0, Domestic ,LMN,No
+23/Dec/00,5366,500015,Box-2,Ea,30000,20000,500,  70.00 ,60,29500,,No,Yellow,  7.14 ,0, Domestic ,ABC,No
+23/Dec/00,5365,500017,Box-3,Ea,30000,20000,500,  70.00 ,60,29500,,No,Yellow,  7.14 ,0, Domestic ,OPQ,No
+23/Dec/00,5367,500051,Box-3,Ea,10000,4000,300,  80.00 ,70,9700,Critical,No,Red,  3.75 ,0, Domestic ,MCP,No
+23/Dec/00,5368,55000,Box-4,Ea,10000,4000,200,  90.00 ,80,9800,Critical,No,Red,  2.22 ,0, Domestic ,MCP,Yes

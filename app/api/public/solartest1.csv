@@ -1,0 +1,5 @@
+Date,Part No,Part Description,UOM,Max Stock,Min- Stock,Opening Stock, Consumption/day ,Consumption/day for next three days,To Supply,Criticality,Remark,Color Code,Coverage,Un accounted,Type ,Vendor
+08/Feb/00,500020,Box-1,Ea,20000,10000,100,  50.00 ,40,19900,Critical,No,Red,  2.00 ,0, Domestic ,ABC
+08/Feb/00,500015,Box-2,Ea,30000,20000,500,  70.00 ,60,29500,,No,Yellow,  7.14 ,0, Domestic ,ABC
+08/Feb/00,500051,Box-3,Ea,10000,4000,300,  80.00 ,70,9700,Critical,No,Red,  3.75 ,0, Domestic ,MCP
+08/Feb/00,55000,Box-4,Ea,10000,4000,200,  90.00 ,80,9800,Critical,No,Red,  2.22 ,0, Domestic ,MCP

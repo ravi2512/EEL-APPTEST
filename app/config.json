@@ -1,0 +1,11 @@
+{
+    "channel_name": "scmchannel",
+    "smart_contract_name": "solar-procurement",
+    "connection_file": "connection.json",
+    "appAdmin": "admin",
+    "appAdminSecret": "adminpw",
+    "orgMSPID": "EelMSP",
+    "caName": "ca.solar.com",
+    "userName": "user1",
+    "gatewayDiscovery": { "enabled": true, "asLocalhost": true }
+}
