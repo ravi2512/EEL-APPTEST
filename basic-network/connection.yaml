@@ -1,0 +1,33 @@
+---
+name: basic-network
+version: 1.0.0
+client:
+    organization: Eel
+    connection:
+        timeout:
+            peer:
+                endorser: '300'
+            orderer: '300'
+channels:
+    mychannel:
+        orderers:
+        - orderer.solar.com
+        peers:
+            peer0.eel.solar.com: {}
+organizations:
+    Eel:
+        mspid: EelMSP
+        peers:
+        - peer0.eel.solar.com
+        certificateAuthorities:
+        - ca.solar.com
+orderers:
+    orderer.solar.com:
+        url: grpc://localhost:7050
+peers:
+    peer0.eel.solar.com:
+        url: grpc://localhost:7051
+certificateAuthorities:
+    ca.solar.com:
+        url: http://localhost:7054
+        caName: ca.solar.com
